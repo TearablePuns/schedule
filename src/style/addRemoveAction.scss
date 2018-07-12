@@ -1,5 +1,5 @@
 .action {
-  background-color: black;
+  background-color: #d8d8d8;
   font-size: 16px;
   height: 32px;
   width: 32px;
@@ -15,7 +15,6 @@
   &:before {
     content: "";
     display: block;
-    background-color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,18 +26,22 @@
   &:before {
     height: 1em;
     width: 0.2em;
+    background-color: green;
   }
   &:after {
     height: 0.2em;
     width: 1em;
+    background-color: green;
   }
 }
 
 .action-remove {
   &:before {
     transform: translate(-50%, -50%) rotate(45deg);
+    background-color: red;
   }
   &:after {
     transform: translate(-50%, -50%) rotate(-135deg);
+    background-color: red;
   }
 }
