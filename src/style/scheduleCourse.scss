@@ -1,3 +1,24 @@
 .schedule-course {
-    
+    height: 55px;
+    width: 280px;
+    background: white;
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
+    justify-content: left;
+
+    color: $color-blackish;
+    font-family: $font-lato;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: 1fr 32px;
+
+    &__title {
+        grid-column: 1/2;
+    }
+    &__action {
+        grid-column: 2/3;
+        justify-self: center;
+    }
 }

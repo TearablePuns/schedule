@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Icon from "./icon";
+import ProgressTracker from './schedule/progressTracker';
 
 class Action extends Component {
   constructor(props) {
@@ -26,12 +27,6 @@ class Action extends Component {
         className={`${this.props.className} action`}
       />
     );
-    //     return (
-    //         <button onClick={() => this.props.onClick()} className={`${this.props.className} action`}>
-    //             {Icon('fas fa-plus-circle')}
-    //             {/* fas fa-times-circle */}
-    //         </button>
-    //     )
   }
 }
 

@@ -6,7 +6,7 @@
     width: 100%;
 
     display: grid;
-    grid-template-rows: 100px [progress-s] 76px [progress-e] repeat(11, 75px) ;
+    grid-template-rows: 100px repeat(5, 80px) 76px;
     grid-row-gap: 22px;
     align-items: center;
     justify-items: center;
