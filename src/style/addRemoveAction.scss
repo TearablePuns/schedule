@@ -5,10 +5,11 @@
   width: 32px;
 
   border-radius: 50%;
-
+  margin-top: 0px;
   margin-right: 50px;
   margin-left: 25px;
   position: relative;
+  transition: all 0.8s ease;
 }
 .action {
   &:after,
@@ -36,12 +37,14 @@
 }
 
 .action-remove {
+  background-color: #888888;
+  transition: all 0.8s ease;
   &:before {
     transform: translate(-50%, -50%) rotate(45deg);
-    background-color: red;
+    background-color: rgb(196, 14, 14);
   }
   &:after {
     transform: translate(-50%, -50%) rotate(-135deg);
-    background-color: red;
+    background-color: rgb(196, 14, 14);
   }
 }
