@@ -10,11 +10,14 @@
     grid-row-gap: 22px;
     align-items: center;
     justify-items: center;
+    align-content:start;
 
+    padding-top: 80px;
     &__title {
-        @include border-left;
+        top: 154px;
         color: white;
         font-family: $font-alegreya;
         font-size: 20px;
+        @include border-left;
     }
 }
